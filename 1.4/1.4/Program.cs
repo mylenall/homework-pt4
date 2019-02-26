@@ -36,7 +36,7 @@ namespace _1._4
         {
             Console.WriteLine("Please, enter the size of array");
             var n = Int32.Parse(Console.ReadLine());
-            if (n <= 0 || n%2 == 0)
+            if (n <= 0 || n % 2 == 0)
             {
                 Console.WriteLine("Size of array must be positive odd number");
                 return;
